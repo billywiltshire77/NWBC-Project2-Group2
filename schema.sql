@@ -1,3 +1,4 @@
+drop table if exists stocks cascade;
 CREATE TABLE stocks (
     ticker varchar   NOT NULL,
     company_name varchar   NOT NULL,
@@ -12,12 +13,14 @@ CREATE TABLE stocks (
     Primary key (ticker)
 );
 
+drop table if exists articles cascade;
 CREATE TABLE articles (
     ticker varchar  NOT NULL,
     analyst_rating varchar   NOT NULL,
     article_title varchar  NOT NULL,
-    article_date date   NOT NULL,
+    article_date varchar   NOT NULL,
     link varchar  NOT NULL,
+    norm_rating int NOT NUll,
     Foreign key (ticker) references stocks(ticker),
 	Primary key (ticker, article_date)
 );
