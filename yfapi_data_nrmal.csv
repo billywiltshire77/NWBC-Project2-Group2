@@ -1,0 +1,48 @@
+Unnamed: 0,ticker,company_name,day_open,day_high,day_low,fifty_day_moving_avg,two_hundred_day_moving_avg,num_rating,rating,norm_rating
+0,AAPL,Apple Inc.,167.99,172.64,167.65,166.388,154.8563,1.8 ,Buy,4
+1,GOOGL,Alphabet Inc.,2774.05,2791.77,2757.01,2693.1436,2742.9302,1.7 ,Buy,4
+2,MSFT,Microsoft Corporation,300.51,303.22,297.73,297.7866,301.60526,1.7 ,Buy,4
+3,AMZN,"Amazon.com, Inc.",3274.1,3326.525,3253.74,3036.9736,3331.578,1.7 ,Buy,4
+4,FB,"Meta Platforms, Inc.",213.33,216.7988,212.16,245.4686,319.92676,2.1 ,Buy,4
+5,GOOG,Alphabet Inc.,2782.77,2800.5,2763.34,2695.3997,2765.66,1.5 ,Strong Buy,5
+6,TSLA,"Tesla, Inc.",979.94,1040.7,976.75,900.3418,854.58716,2.5 ,Buy,4
+7,NVDA,NVIDIA Corporation,261.26,266.115,255.7501,243.8352,238.35402,2.0 ,Buy,4
+8,JPM,JP Morgan Chase & Co.,140.98,141.585,139.1999,146.8884,156.7701,2.5 ,Buy,4
+9,UNH,UnitedHealth Group Incorporated,502.27,507.06,501.3348,478.1448,442.89334,1.9 ,Buy,4
+10,JNJ,Johnson & Johnson,175.23,175.54,174.09,169.0054,167.5003,2.1 ,Buy,4
+11,PG,Procter & Gamble Company (The),152.2,153.01,150.69,156.247,147.41235,2.4 ,Buy,4
+12,V,Visa Inc.,215.3,217.285,214.2,215.2774,222.9288,1.7 ,Buy,4
+13,HD,"Home Depot, Inc. (The)",326.9,328.19,315.85,345.8964,349.8576,2.1 ,Buy,4
+14,BAC,Bank of America Corporation,43.72,44.01,43.03,45.153,43.4384,2.3 ,Buy,4
+15,XOM,Exxon Mobil Corporation,83.34,84.27,83.05,78.054,64.7727,2.5 ,Buy,4
+16,MA,Mastercard Incorporated,343.4,346.73,341.75,359.0146,357.4454,1.8 ,Buy,4
+17,DIS,Walt Disney Company (The),139.07,139.76,137.54,144.1144,163.59634,2.0 ,Buy,4
+18,CVX,Chevron Corporation,166.0,167.3463,164.94,142.3968,116.0047,2.2 ,Buy,4
+19,ABBV,AbbVie Inc.,160.01,161.18,158.36,143.9914,123.455,2.1 ,Buy,4
+20,KO,Coca-Cola Company (The),60.75,60.98,59.995,60.7612,57.0106,2.1 ,Buy,4
+21,CSCO,"Cisco Systems, Inc.",55.9,56.09,54.45,56.298,56.38825,2.4 ,Buy,4
+22,AVGO,Broadcom Inc.,608.0,611.34,599.16,584.0504,537.50793,1.9 ,Buy,4
+23,COST,Costco Wholesale Corporation,556.95,560.6063,551.96,516.3028,480.4085,2.2 ,Buy,4
+24,PEP,"Pepsico, Inc.",164.248,165.275,162.66,167.5764,160.5261,2.4 ,Buy,4
+25,VZ,Verizon Communications Inc.,51.05,51.4563,50.96,53.1624,53.8368,2.7 ,Hold,3
+26,ADBE,Adobe Inc.,437.51,437.98,416.47,481.039,582.5167,1.8 ,Buy,4
+27,TMO,Thermo Fisher Scientific Inc,581.6,583.08,569.95,568.5154,573.96,1.8 ,Buy,4
+28,ABT,Abbott Laboratories,121.11,121.24,116.735,123.459,124.01855,2.0 ,Buy,4
+29,CMCSA,Comcast Corporation,47.15,47.35,46.52,48.0834,53.43965,2.1 ,Buy,4
+30,WFC,Wells Fargo & Company,52.76,53.05,51.095,53.943,49.183,2.0 ,Buy,4
+31,CRM,Salesforce.com Inc,213.87,213.93,208.31,213.0898,251.00415,1.8 ,Buy,4
+32,LLY,Eli Lilly and Company,284.42,288.18,283.35,252.4196,248.92995,2.0 ,Buy,4
+33,INTC,Intel Corporation,48.46,49.58,48.0601,48.9772,52.1147,2.9 ,Hold,3
+34,WMT,Walmart Inc.,143.14,143.73,141.52,139.8566,142.3979,2.0 ,Buy,4
+35,MRK,"Merck & Company, Inc.",79.3,80.58,79.23,78.552,77.8943,2.2 ,Buy,4
+36,AMD,"Advanced Micro Devices, Inc.",114.29,117.54,112.21,117.5262,115.7382,2.2 ,Buy,4
+37,QCOM,QUALCOMM Incorporated,156.11,157.21,152.58,167.5698,154.7415,2.0 ,Buy,4
+38,DHR,Danaher Corporation,291.32,291.355,285.43,278.9062,296.89206,1.8 ,Buy,4
+39,NKE,"Nike, Inc.",132.64,135.4,131.2,139.1092,155.40704,2.1 ,Buy,4
+40,T,AT&T Inc.,23.21,23.45,23.17,24.4608,26.042,2.7 ,Hold,3
+41,NFLX,"Netflix, Inc.",379.77,382.46,374.49,406.2238,539.34265,2.3 ,Buy,4
+42,UNP,Union Pacific Corporation,265.06,269.77,264.52,249.6834,232.3187,2.0 ,Buy,4
+43,PM,Philip Morris International Inc,92.72,93.135,91.16,101.3498,98.278,2.3 ,Buy,4
+44,LOW,"Lowe's Companies, Inc.",227.0,227.95,219.8301,229.6676,219.84586,1.9 ,Buy,4
+45,TXN,Texas Instruments Incorporated,182.0,183.0,179.04,174.0218,186.59296,2.5 ,Buy,4
+46,ROKU,"Roku, Inc.",124.25,130.9,122.5,143.4742,280.5982,2.1 ,Buy,4
