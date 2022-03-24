@@ -1,25 +1,23 @@
 CREATE TABLE stocks (
     ticker varchar   NOT NULL,
-    company varchar   NOT NULL,
-    open_price int   NOT NULL,
-    high int   NOT NULL,
-    low int   NOT NULL,
-    rating int   NOT NULL,
-    recommendation varchar   NOT NULL,
-    fifty_day_avg int   NOT NULL,
-    two_hundred_day_avg int   NOT NULL,
-    price int   NOT NULL,
+    company_name varchar   NOT NULL,
+    day_open int   NOT NULL,
+    day_high int   NOT NULL,
+    day_low int   NOT NULL,
+    fifty_day_moving_avg int   NOT NULL,
+    two_hundred_day_moving_avg int NOT NULL,
+    num_rating int   NOT NULL,
+    rating varchar   NOT NULL,
+    norm_rating int NOT NULL,
     Primary key (ticker)
 );
 
 CREATE TABLE articles (
     ticker varchar  NOT NULL,
-    title varchar  NOT NULL,
-    article_link varchar  NOT NULL,
-    rating int   NOT NULL,
-    recommendation varchar   NOT NULL,
-    date_created date   NOT NULL,
-    ticker_date varchar   NOT NULL,
+    analyst_rating varchar   NOT NULL,
+    article_title varchar  NOT NULL,
+    article_date date   NOT NULL,
+    link varchar  NOT NULL,
     Foreign key (ticker) references stocks(ticker),
-	Primary key (ticker, date_created)
+	Primary key (ticker, article_date)
 );
